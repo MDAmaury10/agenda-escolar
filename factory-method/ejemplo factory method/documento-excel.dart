@@ -1,0 +1,9 @@
+import 'documento.dart';
+
+class DocumentoExcel implements Documento{
+  @override
+  String generar (List<int> calificaciones){
+    // Deberia implementarse el documento de word
+    return 'Calificaciones:${calificaciones.join(', ')}';
+  }
+}
