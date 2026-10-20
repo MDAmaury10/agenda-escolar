@@ -6,9 +6,11 @@ void main(){
   final agenda = Agenda();
   final PanelAlumno panel = PanelAlumno();
   final notificador = Notificador();
+  final historial = Historial();
 
   agenda.suscribir(panel);
   agenda.suscribir(notificador);
+  agenda.suscribir(historial);
 
   agenda.publicarTarea('Estudiar patrones de diseño');
 
