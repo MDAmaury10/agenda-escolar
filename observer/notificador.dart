@@ -1,4 +1,4 @@
-import 'observador.dart'
+import 'observador.dart';
 
 class Notificador implements Observador{
   @override

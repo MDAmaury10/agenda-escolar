@@ -1,10 +1,10 @@
 //Agenda sin observer
-import 'obervador.dart';
+import 'observador.dart';
 
 //sujeto observado
 
 class Agenda{
-  final list<Observador> _obervadores=[];
+  final list<Observador> _observadores=[];
 
   void suscribir(Observador observador){
     _observadores.add(observador);
